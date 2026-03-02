@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>بيت الضرائب للمحاسبة والمراجعة | Tax House</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+
+body{
+    font-family: 'Cairo', sans-serif;
+    margin:0;
+    background:#f4f6f9;
+    color:#333;
+}
+
+header{
+    background:#0d3b66;
+    color:white;
+    padding:20px 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    box-shadow:0 3px 10px rgba(0,0,0,.2);
+}
+
+.logo{
+    font-size:22px;
+    font-weight:800;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:600;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#1d9bf0;
+}
+
+.hero{
+    background:linear-gradient(rgba(13,59,102,.85),rgba(13,59,102,.85)),
+    url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40');
+    background-size:cover;
+    background-position:center;
+    color:white;
+    text-align:center;
+    padding:120px 20px;
+}
+
+.hero h1{
+    font-size:42px;
+    margin-bottom:20px;
+}
+
+.section{
+    padding:60px 40px;
+    max-width:1200px;
+    margin:auto;
+}
+
+.section h2{
+    color:#0d3b66;
+    margin-bottom:30px;
+    font-size:30px;
+    text-align:center;
+}
+
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+    transition:.3s;
+    text-align:center;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card i{
+    font-size:40px;
+    color:#0d3b66;
+    margin-bottom:15px;
+}
+
+.card h3{
+    color:#0d3b66;
+}
+
+.contact{
+    background:#0d3b66;
+    color:white;
+    text-align:center;
+    padding:50px 20px;
+}
+
+.contact i{
+    margin-left:8px;
+    color:#1d9bf0;
+}
+
+footer{
+    background:#08263f;
+    color:white;
+    text-align:center;
+    padding:15px;
+    font-size:14px;
+}
+
+.whatsapp-btn{
+    position:fixed;
+    bottom:20px;
+    left:20px;
+    background:#25D366;
+    color:white;
+    font-size:28px;
+    padding:15px;
+    border-radius:50%;
+    box-shadow:0 5px 15px rgba(0,0,0,.3);
+    z-index:1000;
+}
+
+.whatsapp-btn:hover{
+    background:#1ebe5d;
+}
+
+@media(max-width:768px){
+    header{
+        flex-direction:column;
+    }
+    nav{
+        margin-top:15px;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo"><i class="fa-solid fa-building-columns"></i> بيت الضرائب</div>
+    <nav>
+        <a href="#about">من نحن</a>
+        <a href="#services">خدماتنا</a>
+        <a href="#contact">تواصل معنا</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>بيت الضرائب للمحاسبة والمراجعة</h1>
+    <p>خبرة أكثر من 15 عاماً في المحاسبة والضرائب والاستشارات المالية</p>
+</section>
+
+<section class="section" id="about">
+    <h2>من نحن</h2>
+    <p style="text-align:center;">
+        نسعى أن نكون الخيار الأول للشركات والأفراد في تقديم خدمات المحاسبة والاستشارات المالية
+        بأعلى معايير الجودة والمهنية، مع الالتزام الكامل بالنزاهة والشفافية.
+    </p>
+</section>
+
+<section class="section" id="services">
+    <h2>خدماتنا</h2>
+
+    <div class="services">
+
+        <div class="card">
+            <i class="fa-solid fa-briefcase"></i>
+            <h3>تأسيس الشركات</h3>
+            <p>تأسيس وتعديل جميع أنواع الشركات وتسجيل العلامات التجارية.</p>
+        </div>
+
+        <div class="card">
+            <i class="fa-solid fa-book"></i>
+            <h3>إمساك الدفاتر</h3>
+            <p>تسجيل المعاملات اليومية وإعداد القوائم المالية والتقارير.</p>
+        </div>
+
+        <div class="card">
+            <i class="fa-solid fa-file-invoice-dollar"></i>
+            <h3>الضرائب</h3>
+            <p>إعداد الإقرارات الضريبية والتمثيل أمام مصلحة الضرائب.</p>
+        </div>
+
+        <div class="card">
+            <i class="fa-solid fa-magnifying-glass-chart"></i>
+            <h3>المراجعة</h3>
+            <p>مراجعة سنوية وربع سنوية وتقييم الرقابة الداخلية.</p>
+        </div>
+
+        <div class="card">
+            <i class="fa-solid fa-chart-line"></i>
+            <h3>الاستشارات</h3>
+            <p>استشارات مالية وضريبية وإدارية لتحسين الأداء.</p>
+        </div>
+
+        <div class="card">
+            <i class="fa-solid fa-receipt"></i>
+            <h3>الفاتورة الإلكترونية</h3>
+            <p>التسجيل الكامل واستخراج الختم الإلكتروني.</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <h2>تواصل معنا</h2>
+    <p><i class="fa-solid fa-phone"></i> 01023330012 - 01118391301</p>
+    <p><i class="fa-solid fa-location-dot"></i> برج 211 – الدور 2 – الحصري – 6 أكتوبر</p>
+</section>
+
+<a href="https://wa.me/201023330012" class="whatsapp-btn" target="_blank">
+    <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+<footer>
+    © 2026 جميع الحقوق محفوظة - بيت الضرائب للمحاسبة والمراجعة
+</footer>
+
+</body>
+</html>
